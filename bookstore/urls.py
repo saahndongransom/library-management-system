@@ -2,7 +2,7 @@
 from django.urls import path
 from .import views
 from django.conf.urls.static import static
-#from .views import upload_file
+
 from django.conf import settings
 
 urlpatterns = [

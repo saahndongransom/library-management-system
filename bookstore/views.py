@@ -40,10 +40,10 @@ def register(request):
 
                         
 def addbook_view(request):
-    #now it is empty book form for sending to html
+    
     form=forms.BookForm()
     if request.method=='POST':
-        #now this form have data from html
+     
         form=forms.BookForm(request.POST)
         if form.is_valid():
             user=form.save()
